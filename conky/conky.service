@@ -1,8 +1,0 @@
-[Service]
-Type=oneshot
-RemainAfterExit=true
-StandardOutput=journal
-ExecStart=/home/mint/.config/conky/conky_start.sh
-Environment=DISPLAY=:1
-[Install]
-WantedBy=default.target
